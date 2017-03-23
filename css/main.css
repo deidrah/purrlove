@@ -170,6 +170,7 @@ nav li + li {
 	font-size: 12px;
 	letter-spacing: 2px;
 	font-weight: 800;
+	cursor: pointer;
 }
 
 #button-one {
