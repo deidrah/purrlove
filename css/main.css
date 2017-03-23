@@ -2,6 +2,7 @@ body {
 	margin: 0;
 	padding: 0;
 	background-color: #fff;
+	font-family: 'Raleway', sans-serif;
 }
 
 .container {
@@ -10,7 +11,7 @@ body {
 }
 
 header {
-	height: 115px;
+	height: 50px;
 	margin: 30px 0;
 }
 
@@ -21,7 +22,8 @@ nav {
 }
 
 nav ul {
-	margin: 15px 0;
+	margin: 15px 0 15px 10px;
+	padding: 0;
 }
 
 nav li {
@@ -88,4 +90,141 @@ nav li + li {
 	height: 20px;
 	margin-top: -3px;
 	margin-right: 10px;
+}
+
+#slider {
+	text-align: center;
+}
+
+.slider-col {
+	width: 415px;
+	height: 460px;
+	display: inline-block;
+	border-radius: 10px;
+}
+
+.slider-col + .slider-col {
+	margin-left: 20px;
+}
+
+.slide-content {
+	margin-top: 80px;
+}
+
+.slide-content div {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+#pastel {
+	background-color: #7bdbf8;
+}
+
+#zielnik {
+	background-color: #cfe099;
+}
+
+#hipnoza {
+	background-color: #ffb5c1;
+}
+
+#slide-title-one {
+	background-image: url(../img/pastel.png);
+	background-repeat: no-repeat;
+	width: 312px;
+	height: 70px;
+}
+
+#slide-title-two {
+	background-image: url(../img/zielnik.png);
+	background-repeat: no-repeat;
+	width: 185px;
+	height: 70px;
+}
+
+#slide-title-three {
+	background-image: url(../img/hipnoza.png);
+	background-repeat: no-repeat;
+	width: 218px;
+	height: 70px;
+}
+
+.slider-text {
+	text-align: center;
+	font-weight: 700;
+	color: #fff;
+	margin: 20px 0 30px 0;
+	font-size: 12px;
+	letter-spacing: 2px;
+}
+
+.slide-content button {
+	width: 130px;
+	height: 30px;
+	background-color: #fff;
+	outline: none;
+	border: 0;
+	border-radius: 15px;
+	text-transform: uppercase;
+	font-size: 12px;
+	letter-spacing: 2px;
+	font-weight: 800;
+}
+
+#button-one {
+	color: #7bdbf8;
+}
+
+#button-two {
+	color: #cfe099;
+}
+
+#button-three {
+	color: #ffb5c1;
+}
+
+.legowisko {
+	margin-top: 40px;
+}
+
+#legowisko-one {
+	background-image: url(../img/pastel-legowisko.png);
+	background-repeat: no-repeat;
+	width: 445px;
+	height: 240px;
+	margin-left: -15px;
+}
+
+#legowisko-two {
+	background-image: url(../img/zielnik-legowisko.png);
+	background-repeat: no-repeat;
+	width: 375px;
+	height: 274px;
+}
+
+#legowisko-three {
+	background-image: url(../img/hipnoza-legowisko.png);
+	background-repeat: no-repeat;
+	width: 489px;
+	height: 293px;
+	margin-left: -40px;
+}
+
+#slider-nav {
+	margin: 100px auto;
+	height: 20px;
+	text-align: center;
+}
+
+.dot {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: #cfcfcf;
+}
+
+#active {
+	background-color: #a1a1a1;
 }
