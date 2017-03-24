@@ -187,6 +187,7 @@ nav li + li {
 
 .legowisko {
 	margin-top: 40px;
+	margin-bottom: 40px;
 }
 
 #legowisko-one {
@@ -213,7 +214,7 @@ nav li + li {
 }
 
 #slider-nav {
-	margin: 100px auto;
+	margin: 100px 0 50px 0;
 	height: 20px;
 	text-align: center;
 }
@@ -224,8 +225,73 @@ nav li + li {
 	height: 20px;
 	border-radius: 50%;
 	background-color: #cfcfcf;
+	cursor: pointer;
 }
 
 #active {
 	background-color: #a1a1a1;
 }
+
+h2 {
+	text-align: center;
+	font-size: 18px;
+	color: #494949;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+
+h2:after {
+	content: "";
+	background-color: #707070;
+	height: 5px;
+	width: 40px;
+	display: block;
+	margin: 30px auto 0;
+}
+
+#product-container {
+	margin: 0 auto;
+	text-align: center;
+	color: #494949;
+}
+
+.item {
+	display: inline-block;
+	width: 310px;
+	height: 415px;
+}
+
+.picture {
+	height: 220px;
+	margin: 0 auto;
+}
+
+#pic-one {
+	background-image: url(../img/item-princess.png);
+	background-repeat: no-repeat;
+	width: 225px;
+	height: 218px;
+}
+
+#pic-two {
+	background-image: url(../img/item-tropicana.png);
+	background-repeat: no-repeat;
+	width: 225px;
+	height: 218px;
+}
+
+#pic-three {
+	background-image: url(../img/item-zorba.png);
+	background-repeat: no-repeat;
+	width: 199px;
+	height: 179px;
+}
+
+#pic-four {
+	background-image: url(../img/item-piana.png);
+	background-repeat: no-repeat;
+	width: 199px;
+	height: 179px;
+}
+
