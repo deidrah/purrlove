@@ -259,10 +259,11 @@ h2:after {
 .item {
 	display: inline-block;
 	width: 290px;
-	height: 315px;
-	padding: 50px 10px;
+	height: 340px;
+	padding: 20px 10px 80px 10px;
 	margin: 0 10px;
 	border-radius: 15px;
+	cursor: pointer;
 }
 
 .item:hover {
@@ -318,4 +319,53 @@ h2:after {
 
 .currency {
 	font-weight: 600;
+}
+
+.action-item {
+	visibility: hidden;
+	width: 100%;
+	height: 30px;
+	margin-top: 10px;
+}
+
+.item:hover .action-item {
+	visibility: visible;
+}
+
+.item-cart, .item-heart {
+	background-repeat: no-repeat;
+	display: inline-block;
+	width: 23px;
+	height: 20px;
+}
+
+.item-cart {
+	background-image: url(../img/cart-grey.png);
+	float: left;
+	margin-left: 20px;
+}
+
+.item-heart {
+	background-image: url(../img/heart-color.png);
+	float: right;
+	margin-right: 20px;
+}
+
+#rec-button {
+	margin: 70px auto;
+	text-align: center;
+}
+
+#rec-button button {
+	width: 200px;
+	height: 50px;
+	background-color: #c2c2c2;
+	text-transform: uppercase;
+	color: #fff;
+	border: 0;
+	border-radius: 25px;
+	font-size: 12px;
+	font-weight: 800;
+	letter-spacing: 1px;
+	cursor: pointer;
 }
