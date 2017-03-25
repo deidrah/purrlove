@@ -258,7 +258,7 @@ h2:after {
 
 .item {
 	display: inline-block;
-	width: 290px;
+	width: 280px;
 	height: 340px;
 	padding: 20px 10px 80px 10px;
 	margin: 0 10px;
@@ -368,4 +368,75 @@ h2:after {
 	font-weight: 800;
 	letter-spacing: 1px;
 	cursor: pointer;
+}
+
+#about {
+	overflow: hidden;
+}
+
+.half {
+	display: inline-block;
+	width: 640px;
+	height: 460px;
+	margin-top: 20px;
+}
+
+#about-container {
+	padding: 70px 0 30px 0;
+}
+
+#cat-photo {
+	background-image: url(../img/cat.png);
+	background-repeat: no-repeat;
+	width: 540px;
+	height: 440px;
+	float: left;
+}
+
+#cat-text {
+	float: right;
+	text-align: left;
+}
+
+#about-container button {
+	width: 200px;
+	height: 50px;
+	background-color: #ff7380;
+	text-transform: uppercase;
+	color: #fff;
+	border: 0;
+	border-radius: 25px;
+	font-size: 12px;
+	font-weight: 800;
+	letter-spacing: 1px;
+	cursor: pointer;
+}
+
+#about-container div {
+	font-size: 41px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	color: #434b5d;
+	margin-bottom: 40px;
+}
+
+#about-container div:after {
+	background-image: url(../img/miloscia.png);
+	background-repeat: no-repeat;
+	content: "";
+	display: inline-block;
+	width: 250px;
+	height: 60px;
+	vertical-align: text-bottom;
+	margin-left: 18px;
+}
+
+#about-container p {
+	font-size: 18px;
+	color: #747984;
+	width: 450px;
+	letter-spacing: 1px;
+	line-height: 1.5;
+	margin-bottom: 40px;
 }
