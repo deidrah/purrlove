@@ -440,3 +440,49 @@ h2:after {
 	line-height: 1.5;
 	margin-bottom: 40px;
 }
+
+#newsletter {
+	margin-top: 70px;
+	height: auto;
+	border: 2px dotted #cbcbcb;
+	border-radius: 10px;
+	text-align: center;
+	font-size: 24px;
+	color: #474e5e;
+	padding: 60px 0 80px 0;
+}
+
+#newsletter p {
+	font-weight: 500;
+	line-height: 1.5;
+}
+
+#newsletter span {
+	display: block;
+	font-weight: 600;
+}
+
+#newsletter input[type='email'] {
+	height: 47px;
+	width: 417px;
+	border-radius: 25px;
+	font-size: 18px;
+	border: 1px solid #e1e1e1;
+	padding-left: 20px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+}
+
+#newsletter input[type='submit'] {
+	width: 200px;
+	height: 50px;
+	background-color: #7bdbf8;
+	text-transform: uppercase;
+	color: #fff;
+	border: 0;
+	border-radius: 25px;
+	font-size: 12px;
+	font-weight: 800;
+	letter-spacing: 1px;
+	cursor: pointer;
+}
