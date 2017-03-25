@@ -496,6 +496,7 @@ footer {
 	padding: 30px 50px 30px 50px;
 	font-size: 14px;
 	color: #818181;
+	font-weight: 500;
 }
 
 footer div {
@@ -510,6 +511,45 @@ footer p {
 	float: left;
 }
 
+#contact p + p {
+	margin-left: 10px;
+}
+
+#contact p:nth-child(1):before {
+	background-image: url(../img/phone.png);
+	background-repeat: no-repeat;
+	content: "";
+	float: left;
+	width: 20px;
+	height: 20px;
+	margin-right: 5px;
+}
+
+#contact p:nth-child(2):before {
+	background-image: url(../img/mail.png);
+	background-repeat: no-repeat;
+	content: "";
+	float: left;
+	width: 20px;
+	height: 15px;
+	margin-right: 5px;
+	margin-top: 2px;
+}
+
+#contact p:nth-child(3):before {
+	background-image: url(../img/localization.png);
+	background-repeat: no-repeat;
+	content: "";
+	float: left;
+	width: 20px;
+	height: 20px;
+}
+
 #pages {
 	float: right;
+}
+
+#pages a {
+	text-decoration: none;
+	color: #818181;
 }
