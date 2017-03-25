@@ -230,7 +230,7 @@ nav li + li {
 	cursor: pointer;
 }
 
-#active {
+.active {
 	background-color: #a1a1a1;
 }
 
