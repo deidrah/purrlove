@@ -33,6 +33,12 @@
   margin-top: 20px;
   margin-bottom: 20px; }
 
+#cat-slider .owl-stage-outer {
+  overflow: visible !important; }
+
+#cat-slider .owl-dots {
+  margin-top: 430px; }
+
 #price {
   font-weight: 800;
   color: #527b84;
@@ -237,6 +243,10 @@ ul {
   text-decoration: none;
   color: #9d9d9d; }
 
+.static-container {
+  width: 80%;
+  margin: 100px auto; }
+
 /* GENERAL */
 body {
   margin: 0;
@@ -420,7 +430,8 @@ nav li + li {
   margin-left: -40px; }
 
 .owl-dots {
-  margin: 0 0 100px 0;
+  margin: -50px 0 50px 0;
+  position: relative;
   height: 20px;
   text-align: center; }
 
@@ -556,6 +567,9 @@ h2:after {
   letter-spacing: 1px;
   cursor: pointer; }
 
+#rec-button button:hover, #rec-button button:active {
+  background-color: darkgray; }
+
 #about {
   overflow: hidden; }
 
@@ -591,6 +605,13 @@ h2:after {
   font-weight: 800;
   letter-spacing: 1px;
   cursor: pointer; }
+
+button a {
+  text-decoration: none;
+  color: white; }
+
+#about-container button:hover, #about-container button:active {
+  background-color: #ff4052; }
 
 #about-container div {
   font-size: 41px;
@@ -658,6 +679,9 @@ h2:after {
   font-weight: 800;
   letter-spacing: 1px;
   cursor: pointer; }
+
+#newsletter input[type='submit']:hover, #newsletter input[type='submit']:active {
+  background-color: #4bcef5; }
 
 footer {
   height: 30px;

@@ -36,6 +36,14 @@
     margin-bottom: 20px;
 }
 
+#cat-slider .owl-stage-outer {
+   overflow: visible !important;
+}
+
+#cat-slider .owl-dots { 
+    margin-top: 430px;
+}
+
 #price {
     font-weight: 800;
     color: rgb(82, 123, 132);
