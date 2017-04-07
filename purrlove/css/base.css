@@ -1,5 +1,26 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800&subset=latin-ext");
 /* VARIABLES */
+@media (min-width: 320px) and (max-width: 796px) {
+  .container {
+    width: 100% !important; }
+  .item {
+    width: 70% !important; }
+  #cat-photo {
+    width: 310px !important;
+    height: 240px !important;
+    background-size: contain;
+    display: block !important;
+    float: none !important;
+    margin: 0 auto !important; }
+  #cat-text {
+    float: none !important; } }
+
+@media (min-width: 797px) and (max-width: 1300px) {
+  .container {
+    width: 100% !important; }
+  .item {
+    width: 33% !important; } }
+
 #cat-slider {
   background-image: url(../img/baner-one.png);
   background-repeat: no-repeat;
