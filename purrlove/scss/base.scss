@@ -197,31 +197,28 @@ nav li+li {
 }
 
 .legowisko {
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin: 40px 0 40px 30px !important;
 }
 
 #legowisko-one {
-    background-image: url(../img/pastel-legowisko.png);
+    background-image: url(../img/leg2.png);
     background-repeat: no-repeat;
     width: 445px;
     height: 240px;
-    margin-left: -15px;
 }
 
 #legowisko-two {
-    background-image: url(../img/zielnik-legowisko.png);
+    background-image: url(../img/leg1.png);
     background-repeat: no-repeat;
     width: 375px;
     height: 274px;
 }
 
 #legowisko-three {
-    background-image: url(../img/hipnoza-legowisko.png);
+    background-image: url(../img/leg3.png);
     background-repeat: no-repeat;
     width: 489px;
     height: 293px;
-    margin-left: -40px;
 }
 
 .owl-dots {
