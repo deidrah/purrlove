@@ -4,6 +4,7 @@
 @import 'mediaqueries';
 @import 'catalogue';
 @import 'static';
+@import 'subcategories';
 
 /* GENERAL */
 
@@ -66,6 +67,7 @@ nav li+li {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
+    
 }
 
 #actions {
