@@ -1,9 +1,76 @@
-@media (min-width: 320px) and (max-width: 796px) {
+@media (max-width: 796px) {
+    .item {
+        width: 80% !important;
+        display: block !important;
+    }
+    header {
+        height: auto !important;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        #actions {
+            margin: 70px auto !important;
+        }
+    }
+    #newsletter input[type='email'] {
+        width: 60% !important;
+    }
+    .benefit {
+        display: block !important;
+        width: auto !important;
+    }
+    
+    
+        input[type="text"] {
+            width: 90% !important;
+        }        
+    
+    #reviews {
+        .rev-slide {
+            width: auto !important;
+        }
+        .owl-nav {
+            display: none;
+        }
+    }
+    .row-name, .row-info {
+        margin: 0 !important;
+    }
+    .checkout-row {
+        img {
+            height: 50px !important;
+        }
+        div p {
+            margin-left: 5px !important;
+            font-size: 18px !important;
+        }
+    }
+   
+    
+}
+
+@media (min-width: 797px) and (max-width: 1300px) {
+    .item {
+        width: 33% !important;
+    }
+    .row-name, .row-info {
+        margin: 50px !important;
+    }
+    
+}
+
+@media (max-width: 1300px) {
+    .item {
+        margin: 0 auto !important;
+    }
+    .half {
+        width: auto !important;
+    }
     .container {
         width: 100% !important;
     }
-    .item {
-        width: 70% !important;
+    #slider {
+        display: none;
     }
     #cat-photo {
         width: 310px !important;
@@ -15,14 +82,37 @@
     }
     #cat-text {
         float: none !important;
+        text-align: center !important;
+        display: block !important;
+        #about-container {
+            width: 90%;
+            margin: 0 auto;
+        }
+        p {
+            margin: 0 auto !important;
+            width: auto !important;
+        }
+        button {
+            margin-top: 50px;
+        }
     }
-}
-
-@media (min-width: 797px) and (max-width: 1300px) {
-    .container {
-        width: 100% !important;
+    #newsletter {
+        display: flex;
+        flex-direction: column;
+        input {
+            margin: 20px auto;
+        }
     }
-    .item {
-        width: 33% !important;
+    footer {
+        height: auto !important;
+        text-align: center;
+        #contact {
+            float: none !important;
+        }
+        #pages {
+            float: none !important;
+        }
     }
+    
+    
 }

@@ -1,10 +1,55 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800&subset=latin-ext");
 /* VARIABLES */
-@media (min-width: 320px) and (max-width: 796px) {
+@media (max-width: 796px) {
+  .item {
+    width: 80% !important;
+    display: block !important; }
+  header {
+    height: auto !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    text-align: center; }
+    header #actions {
+      margin: 70px auto !important; }
+  #newsletter input[type='email'] {
+    width: 60% !important; }
+  .benefit {
+    display: block !important;
+    width: auto !important; }
+  input[type="text"] {
+    width: 90% !important; }
+  #reviews .rev-slide {
+    width: auto !important; }
+  #reviews .owl-nav {
+    display: none; }
+  .row-name, .row-info {
+    margin: 0 !important; }
+  .checkout-row img {
+    height: 50px !important; }
+  .checkout-row div p {
+    margin-left: 5px !important;
+    font-size: 18px !important; } }
+
+@media (min-width: 797px) and (max-width: 1300px) {
+  .item {
+    width: 33% !important; }
+  .row-name, .row-info {
+    margin: 50px !important; } }
+
+@media (max-width: 1300px) {
+  .item {
+    margin: 0 auto !important; }
+  .half {
+    width: auto !important; }
   .container {
     width: 100% !important; }
-  .item {
-    width: 70% !important; }
+  #slider {
+    display: none; }
   #cat-photo {
     width: 310px !important;
     height: 240px !important;
@@ -13,13 +58,34 @@
     float: none !important;
     margin: 0 auto !important; }
   #cat-text {
-    float: none !important; } }
-
-@media (min-width: 797px) and (max-width: 1300px) {
-  .container {
-    width: 100% !important; }
-  .item {
-    width: 33% !important; } }
+    float: none !important;
+    text-align: center !important;
+    display: block !important; }
+    #cat-text #about-container {
+      width: 90%;
+      margin: 0 auto; }
+    #cat-text p {
+      margin: 0 auto !important;
+      width: auto !important; }
+    #cat-text button {
+      margin-top: 50px; }
+  #newsletter {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+    #newsletter input {
+      margin: 20px auto; }
+  footer {
+    height: auto !important;
+    text-align: center; }
+    footer #contact {
+      float: none !important; }
+    footer #pages {
+      float: none !important; } }
 
 #cat-slider {
   background-image: url(../img/baner-one.png);
@@ -275,7 +341,6 @@ ul {
 
 #benefits {
   background-color: whitesmoke;
-  height: 300px;
   text-align: center;
   color: #747984;
   margin: 30px auto;
@@ -490,6 +555,7 @@ label {
 body {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
   background-color: white;
   font-family: 'Raleway', sans-serif; }
 
