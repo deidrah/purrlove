@@ -545,6 +545,10 @@ nav li + li {
   margin: 10px 0;
   letter-spacing: 2px; }
 
+#actions a {
+  color: #ffb5c1;
+  text-decoration: none; }
+
 #actions div {
   display: inline-block;
   margin-right: 15px; }
