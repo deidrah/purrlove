@@ -353,11 +353,10 @@ h2:after {
     visibility: visible;
 }
 
-.item-cart,
-.item-heart {
+.item-cart{
     background-repeat: no-repeat;
     display: inline-block;
-    width: 23px;
+    width: 100%;
     height: 20px;
 }
 
@@ -365,13 +364,13 @@ h2:after {
     background-image: url(../img/cart-grey.png);
     float: left;
     margin-left: 20px;
+    span {
+        float: left;
+        margin-left: 30px;
+        color: $pink;
+    }
 }
 
-.item-heart {
-    background-image: url(../img/heart-color.png);
-    float: right;
-    margin-right: 20px;
-}
 
 #rec-button {
     margin: 70px auto;

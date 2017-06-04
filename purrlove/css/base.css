@@ -775,22 +775,20 @@ h2:after {
 .item:hover .action-item {
   visibility: visible; }
 
-.item-cart,
-.item-heart {
+.item-cart {
   background-repeat: no-repeat;
   display: inline-block;
-  width: 23px;
+  width: 100%;
   height: 20px; }
 
 .item-cart {
   background-image: url(../img/cart-grey.png);
   float: left;
   margin-left: 20px; }
-
-.item-heart {
-  background-image: url(../img/heart-color.png);
-  float: right;
-  margin-right: 20px; }
+  .item-cart span {
+    float: left;
+    margin-left: 30px;
+    color: #ffb5c1; }
 
 #rec-button {
   margin: 70px auto;
