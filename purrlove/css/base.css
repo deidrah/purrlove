@@ -323,7 +323,8 @@ ul {
   background-color: whitesmoke;
   text-align: center;
   color: #747984;
-  overflow: hidden; }
+  overflow: hidden;
+  margin: 0 auto; }
   #contact-form .container {
     margin: 100px 0; }
   #contact-form h2 {
