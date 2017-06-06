@@ -7,14 +7,14 @@
     margin-top: 20px;
 }
 
-#slider-name {
+.slider-name {
     background-image: url(../img/wiosenka.png);
     background-repeat: no-repeat;
     width: 270px;
     height: 62px;
 }
 
-#slider-container {
+.slider-container {
     position: absolute;
     left: 53%;
     transform: translateX(-47%);
@@ -23,11 +23,11 @@
     width: 270px;
 }
 
-#slider-container p {
+.slider-container p {
     margin: 0;
 }
 
-#slider-container p:nth-child(2) {
+.slider-container p:nth-child(2) {
     font-weight: 600;
     color: $white;
     font-size: 18px;
@@ -44,18 +44,18 @@
     margin-top: 430px;
 }
 
-#price {
+.prize {
     font-weight: 800;
     color: rgb(82, 123, 132);
     font-size: 45px;
     letter-spacing: 2px;
 }
 
-#price span {
+.prize span {
     font-size: 30px;
 }
 
-#slider-container button {
+#slider-s button {
     margin-top: 20px;
     width: 130px;
     height: 40px;

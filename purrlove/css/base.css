@@ -123,13 +123,13 @@
   margin-left: -22px;
   margin-top: 20px; }
 
-#slider-name {
+.slider-name {
   background-image: url(../img/wiosenka.png);
   background-repeat: no-repeat;
   width: 270px;
   height: 62px; }
 
-#slider-container {
+.slider-container {
   position: absolute;
   left: 53%;
   -webkit-transform: translateX(-47%);
@@ -139,10 +139,10 @@
   text-align: center;
   width: 270px; }
 
-#slider-container p {
+.slider-container p {
   margin: 0; }
 
-#slider-container p:nth-child(2) {
+.slider-container p:nth-child(2) {
   font-weight: 600;
   color: white;
   font-size: 18px;
@@ -156,16 +156,16 @@
 #cat-slider .owl-dots {
   margin-top: 430px; }
 
-#price {
+.prize {
   font-weight: 800;
   color: #527b84;
   font-size: 45px;
   letter-spacing: 2px; }
 
-#price span {
+.prize span {
   font-size: 30px; }
 
-#slider-container button {
+#slider-s button {
   margin-top: 20px;
   width: 130px;
   height: 40px;
@@ -687,28 +687,28 @@ nav li + li {
   margin-left: auto;
   margin-right: auto; }
 
-#pastel {
+.pastel {
   background-color: #7bdbf8; }
 
-#zielnik {
+.zielnik {
   background-color: #cfe099; }
 
-#hipnoza {
+.hipnoza {
   background-color: #ffb5c1; }
 
-#slide-title-one {
+.slide-title-one {
   background-image: url(../img/pastel.png);
   background-repeat: no-repeat;
   width: 312px;
   height: 70px; }
 
-#slide-title-two {
+.slide-title-two {
   background-image: url(../img/zielnik.png);
   background-repeat: no-repeat;
   width: 185px;
   height: 70px; }
 
-#slide-title-three {
+.slide-title-three {
   background-image: url(../img/hipnoza.png);
   background-repeat: no-repeat;
   width: 218px;
@@ -735,31 +735,31 @@ nav li + li {
   font-weight: 800;
   cursor: pointer; }
 
-#button-one {
+.button-one {
   color: #7bdbf8; }
 
-#button-two {
+.button-two {
   color: #cfe099; }
 
-#button-three {
+.button-three {
   color: #ffb5c1; }
 
 .legowisko {
   margin: 40px 0 40px 30px !important; }
 
-#legowisko-one {
+.legowisko-one {
   background-image: url(../img/leg2.png);
   background-repeat: no-repeat;
   width: 445px;
   height: 240px; }
 
-#legowisko-two {
+.legowisko-two {
   background-image: url(../img/leg1.png);
   background-repeat: no-repeat;
   width: 375px;
   height: 274px; }
 
-#legowisko-three {
+.legowisko-three {
   background-image: url(../img/leg3.png);
   background-repeat: no-repeat;
   width: 489px;
@@ -889,9 +889,10 @@ h2:after {
   margin: 70px auto;
   text-align: center; }
 
-#rec-button button {
+#rec-button a {
   width: 200px;
   height: 50px;
+  padding: 20px 50px;
   background-color: #c2c2c2;
   text-transform: uppercase;
   color: white;
@@ -900,9 +901,11 @@ h2:after {
   font-size: 12px;
   font-weight: 800;
   letter-spacing: 1px;
-  cursor: pointer; }
+  cursor: pointer;
+  text-decoration: none;
+  color: white; }
 
-#rec-button button:hover, #rec-button button:active {
+#rec-button a:hover, #rec-button a:active {
   background-color: darkgray; }
 
 #about {
@@ -928,9 +931,13 @@ h2:after {
   float: right;
   text-align: left; }
 
-#about-container button {
+#about-container .button {
+  margin-top: 30px; }
+
+#about-container a {
   width: 200px;
   height: 50px;
+  padding: 20px 50px;
   background-color: #ff7380;
   text-transform: uppercase;
   color: white;
@@ -939,16 +946,14 @@ h2:after {
   font-size: 12px;
   font-weight: 800;
   letter-spacing: 1px;
-  cursor: pointer; }
-
-button a {
+  cursor: pointer;
   text-decoration: none;
   color: white; }
 
-#about-container button:hover, #about-container button:active {
+#about-container a:hover, #about-container a:active {
   background-color: #ff4052; }
 
-#about-container div {
+#about-container .about-title {
   font-size: 41px;
   font-weight: 700;
   text-transform: uppercase;
@@ -956,7 +961,7 @@ button a {
   color: #434b5d;
   margin-bottom: 40px; }
 
-#about-container div:after {
+#about-container .about-title:after {
   background-image: url(../img/miloscia.png);
   background-repeat: no-repeat;
   content: "";

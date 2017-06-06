@@ -137,33 +137,33 @@ nav li+li {
     margin-right: auto;
 }
 
-#pastel {
+.pastel {
     background-color: $blue;
 }
 
-#zielnik {
+.zielnik {
     background-color: $green;
 }
 
-#hipnoza {
+.hipnoza {
     background-color: $pink;
 }
 
-#slide-title-one {
+.slide-title-one {
     background-image: url(../img/pastel.png);
     background-repeat: no-repeat;
     width: 312px;
     height: 70px;
 }
 
-#slide-title-two {
+.slide-title-two {
     background-image: url(../img/zielnik.png);
     background-repeat: no-repeat;
     width: 185px;
     height: 70px;
 }
 
-#slide-title-three {
+.slide-title-three {
     background-image: url(../img/hipnoza.png);
     background-repeat: no-repeat;
     width: 218px;
@@ -193,15 +193,15 @@ nav li+li {
     cursor: pointer;
 }
 
-#button-one {
+.button-one {
     color: $blue;
 }
 
-#button-two {
+.button-two {
     color: $green;
 }
 
-#button-three {
+.button-three {
     color: $pink;
 }
 
@@ -209,21 +209,21 @@ nav li+li {
     margin: 40px 0 40px 30px !important;
 }
 
-#legowisko-one {
+.legowisko-one {
     background-image: url(../img/leg2.png);
     background-repeat: no-repeat;
     width: 445px;
     height: 240px;
 }
 
-#legowisko-two {
+.legowisko-two {
     background-image: url(../img/leg1.png);
     background-repeat: no-repeat;
     width: 375px;
     height: 274px;
 }
 
-#legowisko-three {
+.legowisko-three {
     background-image: url(../img/leg3.png);
     background-repeat: no-repeat;
     width: 489px;
@@ -378,9 +378,10 @@ h2:after {
     text-align: center;
 }
 
-#rec-button button {
+#rec-button a {
     width: 200px;
     height: 50px;
+    padding: 20px 50px;
     background-color: rgb(194, 194, 194);
     text-transform: uppercase;
     color: $white;
@@ -390,9 +391,11 @@ h2:after {
     font-weight: 800;
     letter-spacing: 1px;
     cursor: pointer;
+    text-decoration: none;
+    color: $white;
 }
 
-#rec-button button:hover, #rec-button button:active {
+#rec-button a:hover, #rec-button a:active {
     background-color: rgb(169,169,169);
 }
 
@@ -424,9 +427,14 @@ h2:after {
     text-align: left;
 }
 
-#about-container button {
+#about-container .button {
+    margin-top: 30px;
+}
+
+#about-container a {
     width: 200px;
     height: 50px;
+    padding: 20px 50px;
     background-color: rgb(255, 115, 128);
     text-transform: uppercase;
     color: $white;
@@ -436,18 +444,15 @@ h2:after {
     font-weight: 800;
     letter-spacing: 1px;
     cursor: pointer;
-}
-
-button a {
     text-decoration: none;
     color: $white;
 }
 
-#about-container button:hover, #about-container button:active {
+#about-container a:hover, #about-container a:active {
     background-color: rgb(255,64,82);
 }
 
-#about-container div {
+#about-container .about-title {
     font-size: 41px;
     font-weight: 700;
     text-transform: uppercase;
@@ -456,7 +461,7 @@ button a {
     margin-bottom: 40px;
 }
 
-#about-container div:after {
+#about-container .about-title:after {
     background-image: url(../img/miloscia.png);
     background-repeat: no-repeat;
     content: "";
