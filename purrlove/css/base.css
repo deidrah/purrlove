@@ -115,7 +115,7 @@
     width: auto !important;
     float: none !important; } }
 
-#cat-slider {
+#cat-hero {
   background-image: url(../img/baner-one.png);
   background-repeat: no-repeat;
   width: 1310px;
@@ -127,7 +127,8 @@
   background-image: url(../img/wiosenka.png);
   background-repeat: no-repeat;
   width: 270px;
-  height: 62px; }
+  height: 62px;
+  margin: 0 auto; }
 
 .slider-container {
   position: absolute;
@@ -150,12 +151,6 @@
   margin-top: 20px;
   margin-bottom: 20px; }
 
-#cat-slider .owl-stage-outer {
-  overflow: visible !important; }
-
-#cat-slider .owl-dots {
-  margin-top: 430px; }
-
 .prize {
   font-weight: 800;
   color: #527b84;
@@ -165,7 +160,7 @@
 .prize span {
   font-size: 30px; }
 
-#slider-s button {
+#cat-hero button {
   margin-top: 20px;
   width: 130px;
   height: 40px;
@@ -180,11 +175,6 @@
   font-weight: 800;
   cursor: pointer;
   color: #527b84; }
-
-#slider-nav-cat {
-  margin-top: -60px;
-  height: 20px;
-  text-align: center; }
 
 #catalogue-nav {
   float: left;
