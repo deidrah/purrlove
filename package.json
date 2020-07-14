@@ -1,27 +1,12 @@
 {
-  "name": "purrlove",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/deidrah/purrlove.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/deidrah/purrlove/issues"
-  },
-  "homepage": "https://github.com/deidrah/purrlove#readme",
-  "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-sass": "^3.1.0"
-  },
+  "private": true,
   "dependencies": {
-    "gulp": "^3.9.1",
-    "gulp-sass": "^3.1.0"
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build"
   }
 }
