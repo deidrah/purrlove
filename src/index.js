@@ -5,11 +5,17 @@ import Home from './Home';
 import About from './About';
 import Categories from './Categories';
 import Checkout from './Checkout';
+import Complaints from './Complaints';
+import Payment from './Payment';
+import Rules from './Rules';
 
 import './scss/base.scss';
 
 const App = () => (
   <div>
+    <Route path="/complaints"><Complaints /></Route>
+    <Route path="/payment"><Payment /></Route>
+    <Route path="/rules"><Rules /></Route>
     <Route path="/checkout"><Checkout /></Route>
     <Route path="/categories"><Categories /></Route>
     <Route path="/about"><About /></Route>
