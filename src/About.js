@@ -1,18 +1,8 @@
-<!DOCTYPE html>
-<html>
+import React from 'react';
 
-<head>
-    <title>Purrlove - Kim jesteśmy?</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
-    <link rel="stylesheet" href="css/fontello.css">
-</head>
-
-<body>
+function About() {
+  return (
+    <>
     <div class="container">
         <header>
             <nav class="nav-col">
@@ -21,8 +11,10 @@
                     <li><a href="categories.html">Legowiska</a></li>
                 </ul>
             </nav>
-            <a href="index.html"><div id="logo" class="nav-col">
-            </div></a>
+            <a href="index.html">
+                <div id="logo" class="nav-col">
+                </div>
+            </a>
             <div id="actions" class="nav-col">
                 <a href="checkout.html">Twoje produkty: <div id="cart">4</div></a>
             </div>
@@ -42,17 +34,17 @@
         <div id="benefits">
             <div class="container">
                 <div class="benefit">
-                    <img src="img/icon_sub_1.png" alt="">
+                    <img src="img/icon_sub_1.png" alt="" />
                     <h3>Dopracowane</h3>
                     <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
                 </div>
                 <div class="benefit">
-                   <img src="img/icon_sub_2.png" alt="">
+                   <img src="img/icon_sub_2.png" alt="" />
                     <h3>Wygodne</h3>
                     <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
                 </div>
                 <div class="benefit">
-                   <img src="img/icon_sub_3.png" alt="">
+                   <img src="img/icon_sub_3.png" alt="" />
                     <h3>Bezpieczne</h3>
                     <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
                 </div>
@@ -62,44 +54,44 @@
            <h2>Zobacz kto nas pokochał</h2>
             <div class="owl-carousel">
                 <div class="rev-slide">
-                    <img src="img/zdj.png" alt="">
+                    <img src="img/zdj.png" alt="" />
                 <div class="points">
-                    <img src="img/paw_full.png" alt="">
-                    <img src="img/paw_full.png" alt="">
-                    <img src="img/paw_full.png" alt="">
-                    <img src="img/paw_full.png" alt="">
-                    <img src="img/paw_transp.png" alt="">
+                    <img src="img/paw_full.png" alt="" />
+                    <img src="img/paw_full.png" alt="" />
+                    <img src="img/paw_full.png" alt="" />
+                    <img src="img/paw_full.png" alt="" />
+                    <img src="img/paw_transp.png" alt="" />
                 </div>
                 <div class="rev-descr">
-                    <p><span>"</span>Cras non quam ultricesue nisi. Nunc sodales ultrat,<br> non porttitor mauris ornare non.<br> Donec henderit vel velit ac mollis.<span>"</span></p>
+                    <p><span>"</span>Cras non quam ultricesue nisi. Nunc sodales ultrat,<br /> non porttitor mauris ornare non.<br /> Donec henderit vel velit ac mollis.<span>"</span></p>
                     <p>Mela, 22.05.2017</p>
                 </div>
                 </div>
                 <div class="rev-slide">
-                    <img src="img/zdj.png" alt="">
+                    <img src="img/zdj.png" alt="" />
                 <div class="points">
-                    <img src="img/paw_full.png" alt="">
-                    <img src="img/paw_full.png" alt="">
-                    <img src="img/paw_full.png" alt="">
-                    <img src="img/paw_full.png" alt="">
-                    <img src="img/paw_transp.png" alt="">
+                    <img src="img/paw_full.png" alt="" />
+                    <img src="img/paw_full.png" alt="" />
+                    <img src="img/paw_full.png" alt="" />
+                    <img src="img/paw_full.png" alt="" />
+                    <img src="img/paw_transp.png" alt="" />
                 </div>
                 <div class="rev-descr">
-                    <p><span>"</span>Cras non quam ultricesue nisi. Nunc sodales ultrat,<br> non porttitor mauris ornare non.<br> Donec henderit vel velit ac mollis.<span>"</span></p>
+                    <p><span>"</span>Cras non quam ultricesue nisi. Nunc sodales ultrat,<br /> non porttitor mauris ornare non.<br /> Donec henderit vel velit ac mollis.<span>"</span></p>
                     <p>Mela, 22.05.2017</p>
                 </div>
                 </div>
                 <div class="rev-slide">
-                    <img src="img/zdj.png" alt="">
+                    <img src="img/zdj.png" alt="" />
                 <div class="points">
-                    <img src="img/paw_full.png" alt="">
-                    <img src="img/paw_full.png" alt="">
-                    <img src="img/paw_full.png" alt="">
-                    <img src="img/paw_full.png" alt="">
-                    <img src="img/paw_transp.png" alt="">
+                    <img src="img/paw_full.png" alt="" />
+                    <img src="img/paw_full.png" alt="" />
+                    <img src="img/paw_full.png" alt="" />
+                    <img src="img/paw_full.png" alt="" />
+                    <img src="img/paw_transp.png" alt="" />
                 </div>
                 <div class="rev-descr">
-                    <p><span>"</span>Cras non quam ultricesue nisi. Nunc sodales ultrat,<br> non porttitor mauris ornare non.<br> Donec henderit vel velit ac mollis.<span>"</span></p>
+                    <p><span>"</span>Cras non quam ultricesue nisi. Nunc sodales ultrat,<br /> non porttitor mauris ornare non.<br /> Donec henderit vel velit ac mollis.<span>"</span></p>
                     <p>Mela, 22.05.2017</p>
                 </div>
                 </div>
@@ -111,16 +103,16 @@
            <div id="mouse"></div>
                <div class="container">
                 <h2>Bądźmy w kontakcie</h2>
-                <div id="logo-footer"><img src="img/logo.png" alt=""></div>
+                <div id="logo-footer"><img src="img/logo.png" alt="" /></div>
                 <div id="contact" class="sub-contact">
                     <p>738 892 973</p>
                     <p>sklep@purrlove.com</p>
                     <p>ul. Szewczyka 1/6 84-300 Lębork</p>
                 </div>
                 <form id="purr-contact" method="get">
-                    <input type="text" placeholder="wpisz swój adres e-mail">
-                    <input type="text" placeholder="napisz do nas wiadomość">
-                    <input type="submit" value="WYŚLIJ">
+                    <input type="text" placeholder="wpisz swój adres e-mail" />
+                    <input type="text" placeholder="napisz do nas wiadomość" />
+                    <input type="submit" value="WYŚLIJ" />
                 </form>
                 <div id="socials">
                     <a href="#"><i class="icon-facebook-squared"></i></a>
@@ -136,10 +128,8 @@
                     <a href="static-payment.html">Płatność i dostawa</a></p>
             </div>
         </footer>
-    
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="js/subcategories.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-</body>
+        </>
+  );
+}
 
-</html>
+export default About;
