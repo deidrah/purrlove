@@ -4,7 +4,8 @@
     "node-sass": "^4.14.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "wouter": "^2.4.0"
   },
   "scripts": {
     "start": "react-scripts start",
