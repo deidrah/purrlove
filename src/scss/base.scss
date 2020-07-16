@@ -7,9 +7,6 @@
 @import 'subcategories';
 @import 'checkout';
 
-@import './owl.carousel.min';
-@import './owl.theme.default.min';
-
 /* GENERAL */
 
 body {
@@ -115,7 +112,7 @@ nav li+li {
     margin-right: 10px;
 }
 
-#slider {
+.slider {
     text-align: center;
 }
 
@@ -124,10 +121,6 @@ nav li+li {
     height: 460px;
     display: inline-block;
     border-radius: 10px;
-}
-
-.slider-col+.slider-col {
-    margin-left: 20px;
 }
 
 .slide-content {
