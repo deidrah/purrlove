@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from './components/Header';
+import Footer from './components/Footer';
 
 function Complaints() {
   return (
@@ -16,18 +17,7 @@ function Complaints() {
                 <p>Donec eu ante aliquet, accumsan tellus sit amet, condimentum est. Morbi auctor facilisis sodales. Curabitur cursus elit lorem, in mattis nulla tristique ac. Nullam nisi mi, egestas ac ipsum sit amet, facilisis porta lectus. Aliquam nisi ligula, condimentum at nisl maximus, tincidunt blandit odio. Aenean dignissim metus a metus viverra dignissim eu eget risus. Fusce varius lobortis sodales. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed eu justo non neque ultrices ultrices. Nunc euismod, leo id aliquam vehicula, velit nibh scelerisque lorem, nec porttitor ex turpis et est. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce luctus malesuada iaculis. Quisque facilisis ultricies justo.</p>
             </div>
         </div>
-        <footer>
-            <div id="contact">
-                <p>738 892 973</p>
-                <p>sklep@purrlove.com</p>
-                <p>ul. Szewczyka 1/6 84-300 Lębork</p>
-            </div>
-            <div id="pages">
-                <p><a href="static-complaints.html">Reklamacje i zwroty</a> /
-                    <a href="static-rules.html">Regulamin sklepu</a> /
-                    <a href="static-payment.html">Płatność i dostawa</a></p>
-            </div>
-        </footer>
+<Footer />
     </div>
   );
 }

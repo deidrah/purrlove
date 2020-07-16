@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from './components/Header';
+import Footer from './components/Footer';
 
 function Categories() {
   return (
@@ -149,18 +150,7 @@ function Categories() {
             </div>
         </div>
     </div>
-    <footer>
-        <div id="contact">
-            <p>738 892 973</p>
-            <p>sklep@purrlove.com</p>
-            <p>ul. Szewczyka 1/6 84-300 Lębork</p>
-        </div>
-        <div id="pages">
-            <p><a href="static-complaints.html">Reklamacje i zwroty</a> /
-                <a href="static-rules.html">Regulamin sklepu</a> /
-                <a href="static-payment.html">Płatność i dostawa</a></p>
-        </div>
-    </footer>
+    <Footer />
 </div>
   );
 }

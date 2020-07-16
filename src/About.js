@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from './components/Header';
+import Footer from './components/Footer';
 
 function About() {
   return (
@@ -108,13 +109,7 @@ function About() {
                 </div>
     </div>
         </div>
-        <footer id="sub-footer">
-            <div id="pages">
-                <p><a href="static-complaints.html">Reklamacje i zwroty</a> /
-                    <a href="static-rules.html">Regulamin sklepu</a> /
-                    <a href="static-payment.html">Płatność i dostawa</a></p>
-            </div>
-        </footer>
+        <Footer id="sub-footer" showContact={false} />
         </>
   );
 }
