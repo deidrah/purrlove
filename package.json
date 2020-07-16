@@ -5,6 +5,8 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
+    "react-slick": "^0.26.1",
+    "slick-carousel": "^1.8.1",
     "wouter": "^2.4.0"
   },
   "scripts": {
