@@ -1,21 +1,10 @@
 import React from 'react';
+import Header from './components/Header';
 
 function Home() {
   return (
     <div class="container">
-    <header>
-        <nav class="nav-col">
-            <ul>
-                <li><a href="subpages.html">Kim jesteśmy?</a></li>
-                <li><a href="categories.html">Legowiska</a></li>
-            </ul>
-        </nav>
-        <a href="index.html"><div id="logo" class="nav-col">
-        </div></a>
-        <div id="actions" class="nav-col">
-            <a href="checkout.html">Twoje produkty: <div id="cart">4</div></a>
-        </div>
-    </header>
+    <Header />
     <div id="slider" class="owl-carousel">
         <div class="slider-col pastel">
             <div class="slide-content">

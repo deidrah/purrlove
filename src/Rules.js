@@ -1,21 +1,10 @@
 import React from 'react';
+import Header from './components/Header';
 
 function Rules() {
   return (
     <div class="container">
-    <header>
-        <nav class="nav-col">
-            <ul>
-                <li><a href="subpages.html">Kim jesteśmy?</a></li>
-                <li><a href="categories.html">Legowiska</a></li>
-            </ul>
-        </nav>
-        <a href="index.html"><div id="logo" class="nav-col">
-        </div></a>
-        <div id="actions" class="nav-col">
-            <a href="checkout.html">Twoje produkty: <div id="cart">4</div></a>
-        </div>
-    </header>
+    <Header />
     <div class="static-container">
         <h1>Regulamin sklepu</h1>
         <div class="static-content">
