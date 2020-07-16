@@ -1,12 +1,24 @@
 import React from 'react';
+import Slider from "react-slick";
 import Header from './components/Header';
 import Footer from './components/Footer';
 
 function Home() {
+
+    var settings = {
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 3,
+        slidesToScroll: 3
+      };
+
   return (
     <div class="container">
     <Header />
-    <div id="slider" class="owl-carousel">
+
+    <Slider className="slider" {...settings}>
+        <div class="slide">
         <div class="slider-col pastel">
             <div class="slide-content">
                 <div class="slide-title-one">
@@ -16,6 +28,8 @@ function Home() {
                 <div class="legowisko legowisko-one"></div>
             </div>
         </div>
+        </div>
+        <div class="slide">
         <div class="slider-col zielnik">
             <div class="slide-content">
                 <div class="slide-title-two">
@@ -25,6 +39,8 @@ function Home() {
                 <div class="legowisko legowisko-two"></div>
             </div>
         </div>
+        </div>
+        <div class="slide">
         <div class="slider-col hipnoza">
             <div class="slide-content">
                 <div class="slide-title-three">
@@ -34,6 +50,8 @@ function Home() {
                 <div class="legowisko legowisko-three"></div>
             </div>
         </div>
+        </div>
+        <div class="slide">
         <div class="slider-col pastel">
             <div class="slide-content">
                 <div class="slide-title-one">
@@ -43,6 +61,8 @@ function Home() {
                 <div class="legowisko legowisko-one"></div>
             </div>
         </div>
+        </div>
+        <div class="slide">
         <div class="slider-col zielnik">
             <div class="slide-content">
                 <div class="slide-title-two">
@@ -52,6 +72,8 @@ function Home() {
                 <div class="legowisko legowisko-two"></div>
             </div>
         </div>
+        </div>
+        <div class="slide">
         <div class="slider-col hipnoza">
             <div class="slide-content">
                 <div class="slide-title-three">
@@ -61,7 +83,9 @@ function Home() {
                 <div class="legowisko legowisko-three"></div>
             </div>
         </div>
-    </div>
+        </div>
+      </Slider>
+
     <div id="recommended">
         <h2 class="title">Polecane produkty</h2>
         <div id="product-container">
