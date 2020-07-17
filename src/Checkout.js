@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import SectionHeading from './components/SectionHeading';
+import Button from './components/Button';
 
 function Checkout() {
   return (
@@ -67,7 +68,7 @@ function Checkout() {
                 </div>
                 <div class="checkout-sumup">
                     <p>SUMA: 100zł</p>
-                    <input type="submit" value="Zamów" />
+                    <Button type="submit" bgColor="pink" textColor="white" size="big">Zamów</Button>
                 </div>
             </div>
         </div>

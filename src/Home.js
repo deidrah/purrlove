@@ -3,6 +3,7 @@ import Slider from "react-slick";
 import Header from './components/Header';
 import Footer from './components/Footer';
 import SectionHeading from './components/SectionHeading';
+import Button from './components/Button';
 
 function Home() {
 
@@ -132,7 +133,7 @@ function Home() {
             </div>
         </div>
         <div id="rec-button">
-            <div class="button"><a href="categories.html">Pokaż więcej</a></div>
+            <Button href="/categories" bgColor="gray" textColor="white" size="big">Pokaż więcej</Button>
         </div>
     </div>
     <div id="about">
@@ -142,14 +143,14 @@ function Home() {
             <div id="about-container">
                 <div class="about-title">Szyjemy</div>
                 <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
-                <div class="button"><a href="subpages.html#about">Więcej o nas</a></div>
+                <Button href="/about" bgColor="pink" textColor="white" size="big">Więcej o nas</Button>
             </div>
         </div>
     </div>
     <div id="newsletter">
         <p>Chcesz być powiadamiany o kocich nowościach?<span>Zapisz się do newslettera!</span></p>
         <input type="email" name="email" placeholder="Wpisz adres e-mail" />
-        <input type="submit" name="submit" value="Wyślij" />
+        <Button type="submit" bgColor="blue" textColor="white" size="big">Wyślij</Button>
     </div>
     <Footer />
 </div>

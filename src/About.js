@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import SectionHeading from './components/SectionHeading';
+import Button from './components/Button';
 
 function About() {
   return (
@@ -101,7 +102,7 @@ function About() {
                 <form id="purr-contact" method="get">
                     <input type="text" placeholder="wpisz swój adres e-mail" />
                     <input type="text" placeholder="napisz do nas wiadomość" />
-                    <input type="submit" value="WYŚLIJ" />
+                    <Button type="submit" bgColor="pink" textColor="white" size="big">Wyślij</Button>
                 </form>
                 <div id="socials">
                     <a href="#"><i class="icon-facebook-squared"></i></a>
