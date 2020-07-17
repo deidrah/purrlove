@@ -22,6 +22,51 @@ body {
     margin: 0 auto;
 }
 
+.button {
+    width: 200px;
+    height: 50px;
+    text-transform: uppercase;
+    border: 0;
+    border-radius: 25px;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    cursor: pointer;
+    padding: 20px 50px;
+    text-decoration: none;
+    line-height: 1;
+}
+
+.button-text-white {
+    color: $white;
+}
+
+.button-bg-gray {
+    background-color: $gray;
+
+    &:hover,
+    &:active {
+        background-color: rgb(169,169,169);
+    }
+}
+
+.button-bg-pink {
+    background-color: $dark-pink;
+
+    &:hover,
+    &:active {
+        background-color: rgb(255,64,82);
+    }
+}
+
+.button-bg-blue {
+    background-color: $blue;
+
+    &:hover,
+    &:active {
+        background-color: $dark-blue;
+    } 
+}
 
 /* HEADER */
 
@@ -187,18 +232,6 @@ nav li+li {
     letter-spacing: 2px;
     font-weight: 800;
     cursor: pointer;
-}
-
-.button-one {
-    color: $blue;
-}
-
-.button-two {
-    color: $green;
-}
-
-.button-three {
-    color: $pink;
 }
 
 .legowisko {
@@ -374,27 +407,6 @@ h2:after {
     text-align: center;
 }
 
-#rec-button a {
-    width: 200px;
-    height: 50px;
-    padding: 20px 50px;
-    background-color: rgb(194, 194, 194);
-    text-transform: uppercase;
-    color: $white;
-    border: 0;
-    border-radius: 25px;
-    font-size: 12px;
-    font-weight: 800;
-    letter-spacing: 1px;
-    cursor: pointer;
-    text-decoration: none;
-    color: $white;
-}
-
-#rec-button a:hover, #rec-button a:active {
-    background-color: rgb(169,169,169);
-}
-
 #about {
     overflow: hidden;
 }
@@ -425,27 +437,6 @@ h2:after {
 
 #about-container .button {
     margin-top: 30px;
-}
-
-#about-container a {
-    width: 200px;
-    height: 50px;
-    padding: 20px 50px;
-    background-color: rgb(255, 115, 128);
-    text-transform: uppercase;
-    color: $white;
-    border: 0;
-    border-radius: 25px;
-    font-size: 12px;
-    font-weight: 800;
-    letter-spacing: 1px;
-    cursor: pointer;
-    text-decoration: none;
-    color: $white;
-}
-
-#about-container a:hover, #about-container a:active {
-    background-color: rgb(255,64,82);
 }
 
 #about-container .about-title {
@@ -508,24 +499,6 @@ h2:after {
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
 }
-
-#newsletter input[type='submit'] {
-    width: 200px;
-    height: 50px;
-    background-color: $blue;
-    text-transform: uppercase;
-    color: $white;
-    border: 0;
-    border-radius: 25px;
-    font-size: 12px;
-    font-weight: 800;
-    letter-spacing: 1px;
-    cursor: pointer;
-}
-
-#newsletter input[type='submit']:hover, #newsletter input[type='submit']:active {
-    background-color: $dark-blue;
-} 
 
 footer {
     height: 30px;
