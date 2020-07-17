@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "wouter";
 
 function Footer(props) {
   return (
@@ -12,9 +13,9 @@ function Footer(props) {
       ) : ''}
       <div id="pages">
         <p>
-          <a href="static-complaints.html">Reklamacje i zwroty</a> /
-          <a href="static-rules.html">Regulamin sklepu</a> /
-          <a href="static-payment.html">Płatność i dostawa</a>
+          <Link href="/complaints">Reklamacje i zwroty</Link> /
+          <Link href="/rules">Regulamin sklepu</Link> /
+          <Link href="/payment">Płatność i dostawa</Link>
         </p>
       </div>
     </footer>

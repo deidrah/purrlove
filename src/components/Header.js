@@ -1,19 +1,20 @@
 import React from 'react';
+import { Link } from "wouter";
 
 function Header() {
   return (
     <header>
-      <nav class="nav-col">
+      <nav className="nav-col">
         <ul>
-          <li><a href="subpages.html">Kim jesteśmy?</a></li>
-          <li><a href="categories.html">Legowiska</a></li>
+          <li><Link href="/about">Kim jesteśmy?</Link></li>
+          <li><Link href="/categories">Legowiska</Link></li>
         </ul>
       </nav>
-      <a href="index.html">
-        <div id="logo" class="nav-col" />
+      <a href="/">
+        <div id="logo" className="nav-col" />
       </a>
-      <div id="actions" class="nav-col">
-        <a href="checkout.html">Twoje produkty: <div id="cart">4</div></a>
+      <div id="actions" className="nav-col">
+        <Link href="/checkout">Twoje produkty: <div id="cart">4</div></Link>
       </div>
     </header>
   );
