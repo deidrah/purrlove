@@ -6,6 +6,7 @@ import Footer from './components/Footer';
 function Home() {
 
     var settings = {
+        autoplay: false,
         dots: true,
         infinite: true,
         speed: 500,
