@@ -1,13 +1,14 @@
 import React from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import SectionHeading from './components/SectionHeading';
 
 function Checkout() {
   return (
 <div class="container">
 <Header />
         <div id="checkout">
-            <h2>Twoje produkty</h2>
+            <SectionHeading>Twoje produkty</SectionHeading>
             <div class="container">
                 <div class="checkout-row">
                     <div class="row-name">

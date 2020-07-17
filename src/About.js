@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import SectionHeading from './components/SectionHeading';
 
 function About() {
   return (
@@ -8,7 +9,7 @@ function About() {
     <div class="container">
     <Header />
         <div id="about" class="sub-about">
-            <h2>Dlaczego Twój kot nas pokocha?</h2>
+            <SectionHeading>Dlaczego Twój kot nas pokocha?</SectionHeading>
             <div id="cat-photo" class="half"></div>
             <div id="cat-text" class="half">
                 <div id="about-container">

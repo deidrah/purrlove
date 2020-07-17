@@ -2,6 +2,7 @@ import React from 'react';
 import Slider from "react-slick";
 import Header from './components/Header';
 import Footer from './components/Footer';
+import SectionHeading from './components/SectionHeading';
 
 function Home() {
 
@@ -88,7 +89,7 @@ function Home() {
       </Slider>
 
     <div id="recommended">
-        <h2 class="title">Polecane produkty</h2>
+        <SectionHeading>Polecane produkty</SectionHeading>
         <div id="product-container">
             <div class="item">
                 <div class="action-item">
@@ -135,7 +136,7 @@ function Home() {
         </div>
     </div>
     <div id="about">
-        <h2>Dlaczego Twój kot nas pokocha?</h2>
+        <SectionHeading>Dlaczego Twój kot nas pokocha?</SectionHeading>
         <div id="cat-photo" class="half"></div>
         <div id="cat-text" class="half">
             <div id="about-container">
