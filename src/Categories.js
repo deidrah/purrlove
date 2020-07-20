@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import Button from './components/Button';
 
 function Categories() {
   return (
@@ -11,7 +12,7 @@ function Categories() {
             <div class="slider-name"></div>
             <p>Ut enim ad minim veniam,<br />quis nostrud </p>
             <p class="prize">79.90<span>PLN</span></p>
-            <button>Zobacz</button>
+            <Button href="/" bgColor="white" textColor="dark-gray" size="big">Zobacz</Button>
         </div>
     </div>
     <div id="catalogue">
