@@ -1,5 +1,4 @@
 import React from 'react';
-import Slider from "react-slick";
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Button from './components/Button';
