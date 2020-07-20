@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'wouter';
 
+import './Button.scss';
+
 function Button(props) {
   const buttonClass = `button button-size-${props.size} button-bg-${props.bgColor} button-text-${props.textColor}`;
 
