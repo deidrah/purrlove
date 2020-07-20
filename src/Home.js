@@ -2,10 +2,10 @@ import React from 'react';
 import Slider from "react-slick";
 import Header from './components/Header';
 import Footer from './components/Footer';
-import SectionHeading from './components/SectionHeading';
 import Button from './components/Button';
 import NewsletterSection from './sections/NewsletterSection';
 import AboutSection from './sections/AboutSection';
+import RecommendedSection from './sections/RecommendedSection';
 
 function Home() {
 
@@ -91,53 +91,7 @@ function Home() {
         </div>
       </Slider>
 
-    <div id="recommended">
-        <SectionHeading>Polecane produkty</SectionHeading>
-        <div id="product-container">
-            <div class="item">
-                <div class="action-item">
-                    <div class="item-cart"></div>
-                </div>
-                <div class="picture" id="pic-one">
-                </div>
-                <h3>Princess Dream</h3>
-                <span class="model">Model : Koło</span>
-                <span class="price">89.90</span><span class="currency">PLN</span>
-            </div>
-            <div class="item">
-                <div class="action-item">
-                    <div class="item-cart"></div>
-                </div>
-                <div class="picture" id="pic-two"></div>
-                <h3>Tropicana</h3>
-                <span class="model">Model : Koło</span>
-                <span class="price">89.90</span><span class="currency">PLN</span>
-            </div>
-            <div class="item">
-                <div class="action-item">
-                    <div class="item-cart"></div>
-                </div>
-                <div class="picture" id="pic-three">
-                </div>
-                <h3>Zorba</h3>
-                <span class="model">Model : Kwadrat</span>
-                <span class="price">89.90</span><span class="currency">PLN</span>
-            </div>
-            <div class="item">
-                <div class="action-item">
-                    <div class="item-cart"></div>
-                </div>
-                <div class="picture" id="pic-four">
-                </div>
-                <h3>Morska Piana</h3>
-                <span class="model">Model : Kwadrat</span>
-                <span class="price">89.90</span><span class="currency">PLN</span>
-            </div>
-        </div>
-        <div id="rec-button">
-            <Button href="/categories" bgColor="gray" textColor="white" size="big">Pokaż więcej</Button>
-        </div>
-    </div>
+    <RecommendedSection />
     <AboutSection>
         <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
         <Button href="/about" bgColor="pink" textColor="white" size="big">Więcej o nas</Button>
