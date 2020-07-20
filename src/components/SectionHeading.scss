@@ -1,0 +1,17 @@
+.section-heading {
+    text-align: center;
+    font-size: 18px;
+    color: rgb(73, 73, 73);
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.section-heading:after {
+    content: "";
+    background-color: rgb(112, 112, 112);
+    height: 5px;
+    width: 40px;
+    display: block;
+    margin: 30px auto 0;
+}
