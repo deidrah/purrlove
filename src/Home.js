@@ -27,7 +27,7 @@ function Home() {
                 <div class="slide-title-one">
                 </div>
                 <div class="slider-text">Mauris at felis pharetra,<br />pulvinar nunc</div>
-                <button class="button-one">Zobacz</button>
+                <Button href="/" bgColor="white" textColor="blue" size="small">Zobacz</Button>
                 <div class="legowisko legowisko-one"></div>
             </div>
         </div>
@@ -38,7 +38,7 @@ function Home() {
                 <div class="slide-title-two">
                 </div>
                 <div class="slider-text">Ut enim ad minim veniam, quis<br />nostrud</div>
-                <button class="button-two">Zobacz</button>
+                <Button href="/" bgColor="white" textColor="green" size="small">Zobacz</Button>
                 <div class="legowisko legowisko-two"></div>
             </div>
         </div>
@@ -49,7 +49,7 @@ function Home() {
                 <div class="slide-title-three">
                 </div>
                 <div class="slider-text">Ut enim ad minim veniam, quis<br />nostrud</div>
-                <button class="button-three">Zobacz</button>
+                <Button href="/" bgColor="white" textColor="pink" size="small">Zobacz</Button>
                 <div class="legowisko legowisko-three"></div>
             </div>
         </div>
@@ -60,7 +60,7 @@ function Home() {
                 <div class="slide-title-one">
                 </div>
                 <div class="slider-text">Mauris at felis pharetra,<br />pulvinar nunc</div>
-                <button class="button-one">Zobacz</button>
+                <Button href="/" bgColor="white" textColor="blue" size="small">Zobacz</Button>
                 <div class="legowisko legowisko-one"></div>
             </div>
         </div>
@@ -71,7 +71,7 @@ function Home() {
                 <div class="slide-title-two">
                 </div>
                 <div class="slider-text">Ut enim ad minim veniam, quis<br />nostrud</div>
-                <button class="button-two">Zobacz</button>
+                <Button href="/" bgColor="white" textColor="green" size="small">Zobacz</Button>
                 <div class="legowisko legowisko-two"></div>
             </div>
         </div>
@@ -82,7 +82,7 @@ function Home() {
                 <div class="slide-title-three">
                 </div>
                 <div class="slider-text">Ut enim ad minim veniam, quis<br />nostrud</div>
-                <button class="button-three">Zobacz</button>
+                <Button href="/" bgColor="white" textColor="pink" size="small">Zobacz</Button>
                 <div class="legowisko legowisko-three"></div>
             </div>
         </div>
