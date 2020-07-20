@@ -4,7 +4,8 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import SectionHeading from './components/SectionHeading';
 import Button from './components/Button';
-import NewsletterSection from './sections/NewsletterSection'
+import NewsletterSection from './sections/NewsletterSection';
+import AboutSection from './sections/AboutSection';
 
 function Home() {
 
@@ -137,17 +138,10 @@ function Home() {
             <Button href="/categories" bgColor="gray" textColor="white" size="big">Pokaż więcej</Button>
         </div>
     </div>
-    <div id="about">
-        <SectionHeading>Dlaczego Twój kot nas pokocha?</SectionHeading>
-        <div id="cat-photo" class="half"></div>
-        <div id="cat-text" class="half">
-            <div id="about-container">
-                <div class="about-title">Szyjemy</div>
-                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
-                <Button href="/about" bgColor="pink" textColor="white" size="big">Więcej o nas</Button>
-            </div>
-        </div>
-    </div>
+    <AboutSection>
+        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+        <Button href="/about" bgColor="pink" textColor="white" size="big">Więcej o nas</Button>
+    </AboutSection>
     <NewsletterSection />
     <Footer />
 </div>
