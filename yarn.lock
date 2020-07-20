@@ -8810,10 +8810,10 @@ react-scripts@3.4.1:
   optionalDependencies:
     fsevents "2.1.2"
 
-react-slick@^0.26.1:
-  version "0.26.1"
-  resolved "https://registry.yarnpkg.com/react-slick/-/react-slick-0.26.1.tgz#42d6b9bfdf3a16e4e4609a6c6536957f8acde7d9"
-  integrity sha512-IQVRSkikG2w5bkz+m9Ing5zZIuM9cI+qJyXG2o6PXHKj8GFcsMCJoTBADwyLSsVT8dHcZ8MZ0dsxq0i0CKIq+Q==
+react-slick@^0.27.0:
+  version "0.27.0"
+  resolved "https://registry.yarnpkg.com/react-slick/-/react-slick-0.27.0.tgz#d62607316e0aa26b3655b882430ef867eb40aa55"
+  integrity sha512-9pOrmOynYygSromtmZoPV2xObivfeae9+9qFbP52z1AKV0sjbGEJroIVA7eLe2p3ImWP1R+588dd/8Ju5MrT/g==
   dependencies:
     classnames "^2.2.5"
     enquire.js "^2.1.6"
@@ -10984,10 +10984,10 @@ worker-rpc@^0.1.0:
   dependencies:
     microevent.ts "~0.1.1"
 
-wouter@^2.4.0:
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/wouter/-/wouter-2.4.0.tgz#bdaf9c44dac336541517a66601305e3cf61c51b1"
-  integrity sha512-IBO26pBu+yXYRucFiap4B2PGXzFUwXtmtCasZm8HNmqtX4lZA9dVABBJjm/qmzZjQ8VwfV1RVZe55+pX4PQOVA==
+wouter@^2.5.0:
+  version "2.5.0"
+  resolved "https://registry.yarnpkg.com/wouter/-/wouter-2.5.0.tgz#be92c6ee5c14f9784256dc461994d6e16b2f2a35"
+  integrity sha512-qw6nPdQ4pPNcjeV9mvO+ysPptApqqXLDYUFVyuqCcp1fYmp6DndSocRFwsIg1By9KAXtjA6ontKSd3r9x8LmIg==
 
 wrap-ansi@^2.0.0:
   version "2.1.0"
