@@ -61,7 +61,7 @@ nav li+li {
 }
 
 #logo {
-    background-image: url("../img/logo.png");
+    background-image: url("/img/logo.png");
     background-repeat: no-repeat;
     width: 150px;
     height: 50px;
@@ -91,7 +91,7 @@ nav li+li {
 }
 
 #favorites:before {
-    background-image: url(../img/heart-grey.png);
+    background-image: url(/img/heart-grey.png);
     background-repeat: no-repeat;
     content: "";
     float: left;
@@ -101,7 +101,7 @@ nav li+li {
 }
 
 #cart:before {
-    background-image: url(../img/cart.png);
+    background-image: url(/img/cart.png);
     background-repeat: no-repeat;
     content: "";
     float: left;
@@ -145,21 +145,21 @@ nav li+li {
 }
 
 .slide-title-one {
-    background-image: url(../img/pastel.png);
+    background-image: url(/img/pastel.png);
     background-repeat: no-repeat;
     width: 312px;
     height: 70px;
 }
 
 .slide-title-two {
-    background-image: url(../img/zielnik.png);
+    background-image: url(/img/zielnik.png);
     background-repeat: no-repeat;
     width: 185px;
     height: 70px;
 }
 
 .slide-title-three {
-    background-image: url(../img/hipnoza.png);
+    background-image: url(/img/hipnoza.png);
     background-repeat: no-repeat;
     width: 218px;
     height: 70px;
@@ -179,21 +179,21 @@ nav li+li {
 }
 
 .legowisko-one {
-    background-image: url(../img/leg2.png);
+    background-image: url(/img/leg2.png);
     background-repeat: no-repeat;
     width: 445px;
     height: 240px;
 }
 
 .legowisko-two {
-    background-image: url(../img/leg1.png);
+    background-image: url(/img/leg1.png);
     background-repeat: no-repeat;
     width: 375px;
     height: 274px;
 }
 
 .legowisko-three {
-    background-image: url(../img/leg3.png);
+    background-image: url(/img/leg3.png);
     background-repeat: no-repeat;
     width: 489px;
     height: 293px;
@@ -250,23 +250,23 @@ nav li+li {
 }
 
 #pic-one {
-    background-image: url(../img/item-princess.png);
+    background-image: url(/img/item-princess.png);
     width: 225px;
 }
 
 #pic-two {
-    background-image: url(../img/item-tropicana.png);
+    background-image: url(/img/item-tropicana.png);
     width: 225px;
 }
 
 #pic-three {
-    background-image: url(../img/item-zorba.png);
+    background-image: url(/img/item-zorba.png);
     background-position: center;
     width: 199px;
 }
 
 #pic-four {
-    background-image: url(../img/item-piana.png);
+    background-image: url(/img/item-piana.png);
     background-position: center;
     width: 199px;
 }
@@ -313,7 +313,7 @@ nav li+li {
 }
 
 .item-cart {
-    background-image: url(../img/cart-grey.png);
+    background-image: url(/img/cart-grey.png);
     float: left;
     margin-left: 20px;
     span {
@@ -344,7 +344,7 @@ nav li+li {
 }
 
 #cat-photo {
-    background-image: url(../img/cat.png);
+    background-image: url(/img/cat.png);
     background-repeat: no-repeat;
     width: 540px;
     height: 440px;
@@ -370,7 +370,7 @@ nav li+li {
 }
 
 #about-container .about-title:after {
-    background-image: url(../img/miloscia.png);
+    background-image: url(/img/miloscia.png);
     background-repeat: no-repeat;
     content: "";
     display: inline-block;
@@ -451,7 +451,7 @@ footer p {
 }
 
 #contact p:nth-child(1):before {
-    background-image: url(../img/phone.png);
+    background-image: url(/img/phone.png);
     background-repeat: no-repeat;
     content: "";
     float: left;
@@ -461,7 +461,7 @@ footer p {
 }
 
 #contact p:nth-child(2):before {
-    background-image: url(../img/mail.png);
+    background-image: url(/img/mail.png);
     background-repeat: no-repeat;
     content: "";
     float: left;
@@ -472,7 +472,7 @@ footer p {
 }
 
 #contact p:nth-child(3):before {
-    background-image: url(../img/localization.png);
+    background-image: url(/img/localization.png);
     background-repeat: no-repeat;
     content: "";
     float: left;
