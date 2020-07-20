@@ -1,7 +1,6 @@
 import React from 'react';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import SectionHeading from './components/SectionHeading';
+import Header from './sections/Header';
+import Footer from './sections/Footer';
 import Button from './components/Button';
 import AboutSection from './sections/AboutSection';
 
