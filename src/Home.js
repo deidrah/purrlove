@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import SectionHeading from './components/SectionHeading';
 import Button from './components/Button';
+import NewsletterSection from './sections/NewsletterSection'
 
 function Home() {
 
@@ -147,11 +148,7 @@ function Home() {
             </div>
         </div>
     </div>
-    <div id="newsletter">
-        <p>Chcesz być powiadamiany o kocich nowościach?<span>Zapisz się do newslettera!</span></p>
-        <input type="email" name="email" placeholder="Wpisz adres e-mail" />
-        <Button type="submit" bgColor="blue" textColor="white" size="big">Wyślij</Button>
-    </div>
+    <NewsletterSection />
     <Footer />
 </div>
   );
