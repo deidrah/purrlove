@@ -3,6 +3,7 @@ import Header from './sections/Header';
 import Footer from './sections/Footer';
 import Button from './components/Button';
 import AboutSection from './sections/AboutSection';
+import SectionHeading from './components/SectionHeading'
 
 function About() {
   return (
@@ -34,7 +35,7 @@ function About() {
             </div>
         </div>
         <div id="reviews">
-           <h2>Zobacz kto nas pokochał</h2>
+           <SectionHeading>Zobacz kto nas pokochał</SectionHeading>
             <div class="owl-carousel">
                 <div class="rev-slide">
                     <img src="img/zdj.png" alt="" />
@@ -85,7 +86,7 @@ function About() {
         <div id="contact-form">
            <div id="mouse"></div>
                <div class="container">
-                <h2>Bądźmy w kontakcie</h2>
+                <SectionHeading>Bądźmy w kontakcie</SectionHeading>
                 <div id="logo-footer"><img src="img/logo.png" alt="" /></div>
                 <div id="contact" class="sub-contact">
                     <p>738 892 973</p>

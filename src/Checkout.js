@@ -53,7 +53,7 @@ function Checkout() {
                     </div>
                 </div>
                 <div class="checkout-data">
-                   <h2>Adres dostawy</h2>
+                   <SectionHeading>Adres dostawy</SectionHeading>
                     <form id="checkout-address" method="get">
                         <input type="text" placeholder="Imię i Nazwisko" />
                     <input type="text" placeholder="Ulica oraz nr domu" />
@@ -61,7 +61,7 @@ function Checkout() {
                     </form>
                 </div>
                 <div class="checkout-delivery">
-                    <h2>Dostawa</h2>
+                    <SectionHeading>Dostawa</SectionHeading>
                     <input type="radio" name="delivery" id="delivery-one" /><label for="delivery-one">Za pobraniem - 15zł</label>
                     <input type="radio" name="delivery" id="delivery-two" /><label for="delivery-two">Przedpłata - 10zł</label>
                     <input type="radio" name="delivery" id="delivery-three" /><label for="delivery-three">Odbiór osobisty - 0zł</label>
