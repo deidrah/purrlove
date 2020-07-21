@@ -4,17 +4,19 @@ import { Link } from 'wouter';
 import './Button.scss';
 
 function Button(props) {
-  const buttonClass = `button button-size-${props.size} button-bg-${props.bgColor} button-text-${props.textColor}`;
+  const { size, bgColor, textColor, href, type, children } = props;
 
-  return props.href
+  const buttonClass = `button button-size-${size} button-bg-${bgColor} button-text-${textColor}`;
+
+  return href
     ? (
-      <Link href={props.href} className={buttonClass}>
-        {props.children}
+      <Link href={href} className={buttonClass}>
+        {children}
       </Link>
     )
     : (
-      <button type={props.type} className={buttonClass}>
-        {props.children}
+      <button type={type} className={buttonClass}>
+        {children}
       </button>
     );
 }
