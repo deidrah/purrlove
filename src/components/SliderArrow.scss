@@ -1,0 +1,28 @@
+@import "../scss/variables";
+
+.slider-arrow {
+    width: 64px;
+    height: 64px;
+    background: none;
+    border: 0;
+    padding: 0;
+    position: absolute;
+    cursor: pointer;
+    z-index: 100;
+
+    svg {
+        fill: rgb(112, 112, 112);
+    }
+}
+
+.slider-arrow-direction-next {
+    right: 35%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.slider-arrow-direction-prev {
+    transform: rotate(180deg) translateY(-50%);
+    left: 35%;
+    bottom: 50%;
+}
