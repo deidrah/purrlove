@@ -23,21 +23,20 @@
     }
 }
 
-.owl-carousel .owl-item img {
-    width: auto !important;
-    display: inline-block !important;
-}
-
 #reviews {
     h2 {
         margin-bottom: 50px;
     }
     text-align: center;
     color: #747984;
-    margin: 100px auto;
+    margin: 100px auto 120px;
     .rev-slide {
         width: 500px;
         margin: 0 auto;
+        img {
+            width: auto !important;
+            display: inline-block !important;
+        }
     }
     .rev-descr {
         span {
