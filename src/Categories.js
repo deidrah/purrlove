@@ -2,6 +2,8 @@ import React from 'react';
 import Header from './sections/Header';
 import Footer from './sections/Footer';
 import HeroSection from './sections/HeroSection';
+import Pagination from './components/Pagination';
+import Product from './components/Product';
 
 function Categories() {
   return (
@@ -44,105 +46,22 @@ function Categories() {
             </div>
             <div id="product-cat-container">
                 <div class="item-col">
-                    <div class="item">
-                        <div class="action-item">
-                            <div class="item-cart"></div>
-                        </div>
-                        <div class="picture" id="pic-cat-one">
-                        </div>
-                        <h3>Tropicana</h3>
-                        <span class="model">Model : Koło</span>
-                        <span class="price">89.90</span><span class="currency">PLN</span>
-                    </div>
-                    <div class="item">
-                        <div class="action-item">
-                            <div class="item-cart"></div>
-                        </div>
-                        <div class="picture" id="pic-cat-two"></div>
-                        <h3>Vintage Floral</h3>
-                        <span class="model">Model : Chatka</span>
-                        <span class="price">89.90</span><span class="currency">PLN</span>
-                    </div>
-                    <div class="item">
-                        <div class="action-item">
-                            <div class="item-cart"></div>
-                        </div>
-                        <div class="picture" id="pic-cat-three">
-                        </div>
-                        <h3>Morska Piana</h3>
-                        <span class="model">Model : Kwadrat</span>
-                        <span class="price">89.90</span><span class="currency">PLN</span>
-                    </div>
+                    <Product name="Tropicana" price={89.90} model="Koło" />
+                    <Product name="Vintage Floral" price={89.90} model="Chatka" />
+                    <Product name="Morska Piana" price={89.90} model="Kwadrat" />
                 </div>
                 <div class="item-col">
-                    <div class="item">
-                        <div class="action-item">
-                            <div class="item-cart"></div>
-                        </div>
-                        <div class="picture" id="pic-cat-four">
-                        </div>
-                        <h3>Geometric</h3>
-                        <span class="model">Model : Koło</span>
-                        <span class="price">89.90</span><span class="currency">PLN</span>
-                    </div>
-                    <div class="item">
-                        <div class="action-item">
-                            <div class="item-cart"></div>
-                        </div>
-                        <div class="picture" id="pic-cat-five"></div>
-                        <h3>Subtle Herbs</h3>
-                        <span class="model">Model : Koło</span>
-                        <span class="price">89.90</span><span class="currency">PLN</span>
-                    </div>
-                    <div class="item">
-                        <div class="action-item">
-                            <div class="item-cart"></div>
-                        </div>
-                        <div class="picture" id="pic-cat-six">
-                        </div>
-                        <h3>Fruity</h3>
-                        <span class="model">Model : Kwadrat</span>
-                        <span class="price">89.90</span><span class="currency">PLN</span>
-                    </div>
+                    <Product name="Geometric" price={89.90} model="Koło" />
+                    <Product name="Subtle Herbs" price={89.90} model="Koło" />
+                    <Product name="Fruity" price={89.90} model="Kwadrat" />
                 </div>
                 <div class="item-col">
-                    <div class="item">
-                        <div class="action-item">
-                            <div class="item-cart"></div>
-                        </div>
-                        <div class="picture" id="pic-cat-seven">
-                        </div>
-                        <h3>Flamingo</h3>
-                        <span class="model">Model : Koło</span>
-                        <span class="price">89.90</span><span class="currency">PLN</span>
-                    </div>
-                    <div class="item">
-                        <div class="action-item">
-                            <div class="item-cart"></div>
-                        </div>
-                        <div class="picture" id="pic-cat-eight"></div>
-                        <h3>Darkblue floral</h3>
-                        <span class="model">Model : Koło</span>
-                        <span class="price">89.90</span><span class="currency">PLN</span>
-                    </div>
-                    <div class="item">
-                        <div class="action-item">
-                            <div class="item-cart"></div>
-                        </div>
-                        <div class="picture" id="pic-cat-nine">
-                        </div>
-                        <h3>Galaxy</h3>
-                        <span class="model">Model : Kwadrat</span>
-                        <span class="price">89.90</span><span class="currency">PLN</span>
-                    </div>
+                    <Product name="Flamingo" price={89.90} model="Koło" />
+                    <Product name="Darkblue floral" price={89.90} model="Koło" />
+                    <Product name="Galaxy" price={89.90} model="Kwadrat" />
                 </div>
             </div>
-            <div id="pagination">
-                <p>
-                    <a href="#">
-                        &lt;&lt; Poprzednia strona</a> /
-                            <a href="#">Następna strona >></a></p>
-            </div>
+            <Pagination />
         </div>
     </div>
     <Footer />
