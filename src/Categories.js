@@ -1,20 +1,14 @@
 import React from 'react';
 import Header from './sections/Header';
 import Footer from './sections/Footer';
-import Button from './components/Button';
+import HeroSection from './sections/HeroSection';
 
 function Categories() {
   return (
     <div class="container">
     <Header />
-    <div id="cat-hero">
-        <div class="slider-col slider-container">
-            <div class="slider-name"></div>
-            <p>Ut enim ad minim veniam,<br />quis nostrud </p>
-            <p class="prize">79.90<span>PLN</span></p>
-            <Button href="/" bgColor="white" textColor="dark-gray" size="big">Zobacz</Button>
-        </div>
-    </div>
+    <HeroSection />
+
     <div id="catalogue">
         <div id="catalogue-nav">
             <div id="cat">
