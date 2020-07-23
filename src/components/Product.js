@@ -1,5 +1,7 @@
 import React from 'react';
 
+import './Product.scss';
+
 function Product(props) {
   return (
     <div class="item">
