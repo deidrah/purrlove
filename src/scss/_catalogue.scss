@@ -189,8 +189,10 @@ ul {
     margin-right: 15px;
 }
 
-#cat-filters a {
-    text-decoration: none;
+#cat-filters button {
+    background: none;
+    border: 0;
+    cursor: pointer;
     color: rgb(145, 145, 145);
     font-size: 14px;
 }

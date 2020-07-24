@@ -39,10 +39,8 @@ function Categories() {
             <div id="cat-filters">
                 <h4>Sortuj</h4>
                 <ul>
-                    <li><a href="#">Cena rosnąco</a></li>
-                    <li><a href="#">Cena malejącco</a></li>
-                    <li><a href="#">Nazwa</a></li>
-                    <li><a href="#">Popuplarność</a></li>
+                    <li><button>Cena</button></li>
+                    <li><button>Nazwa</button></li>
                 </ul>
             </div>
             <div id="product-cat-container">
