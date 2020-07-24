@@ -4,6 +4,7 @@ import Footer from './sections/Footer';
 import HeroSection from './sections/HeroSection';
 import Pagination from './components/Pagination';
 import Product from './components/Product';
+import products from './config/products';
 
 function Categories() {
   return (
@@ -45,21 +46,9 @@ function Categories() {
                 </ul>
             </div>
             <div id="product-cat-container">
-                <div class="item-col">
-                    <Product name="Tropicana" price={89.90} model="Koło" />
-                    <Product name="Vintage Floral" price={89.90} model="Chatka" />
-                    <Product name="Morska Piana" price={89.90} model="Kwadrat" />
-                </div>
-                <div class="item-col">
-                    <Product name="Geometric" price={89.90} model="Koło" />
-                    <Product name="Subtle Herbs" price={89.90} model="Koło" />
-                    <Product name="Fruity" price={89.90} model="Kwadrat" />
-                </div>
-                <div class="item-col">
-                    <Product name="Flamingo" price={89.90} model="Koło" />
-                    <Product name="Darkblue floral" price={89.90} model="Koło" />
-                    <Product name="Galaxy" price={89.90} model="Kwadrat" />
-                </div>
+                {products.map(product => (
+                    <Product name={product.name} price={product.price} model={product.model} imgUrl={product.imgUrl} />
+                ))}
             </div>
             <Pagination />
         </div>
